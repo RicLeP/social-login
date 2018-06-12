@@ -1,0 +1,29 @@
+{
+    "name": "riclep/social-login",
+    "description": "An implementation of Laravel Socialite. Initially built for Laravel Spark",
+	"keywords": ["laravel", "spark", "laravel spark", "laravel socialite", "social login", "facebook", "twitter", "github"],
+	"license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Richard Le Poidevin",
+            "email": "ric@wearebwi.com"
+        }
+    ],
+	"minimum-stability": "stable",
+	"require": {
+		"laravel/socialite": "^3.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"RicLeP\\SocialLogin\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"RicLeP\\SocialLogin\\SocialLoginServiceProvider"
+			]
+		}
+	}
+}
