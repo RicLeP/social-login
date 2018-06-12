@@ -25,4 +25,11 @@ Add the social network credentials to your Laravel config/services.php file.
 ],
 ```
 
+Add the social links to your views.
+
+```php
+<a href="/social-auth/facebook/redirect">Facebook Login</a>
+<a href="/social-auth/twitter/redirect">Twitter Login</a>
+```
+
 See https://laravel.com/docs/master/socialite
