@@ -15,7 +15,7 @@ class SocialLoginServiceProvider extends ServiceProvider
     {
 		$this->loadRoutesFrom(__DIR__.'/routes.php');
 
-		$this->loadMigrationsFrom(__DIR__.'../migrations');
+		$this->loadMigrationsFrom(__DIR__.'/../migrations');
     }
 
     /**
